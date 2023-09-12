@@ -25,7 +25,6 @@
          public $track = "";
          public $utc_time  = "";
          public $current_day = "";
-         
          public $github_file_url = "";
          public $github_repo_url = "";
          public $status_code = "";
@@ -35,19 +34,25 @@
       $e = new Emp();
       $e->slackname = "stage one";
       $e->Track = "Backend";
-      
-      $e->current_time = "sports";
-      $e->github_file_url = "sachin";
-      $e->github_repo_url  = "sports";
-      $e->status_code  = "sports";
-         
+      $e->current_day = "Tuesday";
+      $e->utc_time = "20:29:14.042";
+      $e->current_time = "8:27pm";
+      $e->github_file_url = "https://github.com/Philaretus/backend_task/blob/main/task.php";
+      $e->github_repo_url  = "https://github.com/Philaretus/backend_task.git";
+      $e->status_code  = "200";
+        
       echo json_encode($e);
-  
+      
+      
       exit();
    }
 ?>
 </div>
 </div>
+
+
+
+
  <body>
 <div class="container">
 <h1 style="text-align:center">WELCOME TASK ONE(1) OF HNG</h1>
